@@ -2179,17 +2179,17 @@ textarea.input {
   }
 }
 
-@media (max-width: 550px) and (max-width: 20em) {
+@media (max-width: 550px) {
   .header__social {
     margin-bottom: 2.5rem;
   }
 
   .header__basket {
     margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
   }
-}
 
-@media (max-width: 550px) {
   .header__button {
     margin: 0px 15px;
   }
@@ -2833,26 +2833,6 @@ textarea.input {
   }
 
   .menu__list {
-    margin-bottom: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem );
-  }
-}
-
-@media (max-width: 550px) and (min-width: 83.125em) {
-  .header__social {
-    margin-bottom: 2.5rem;
-  }
-
-  .header__basket {
-    margin-bottom: 2.5rem;
-  }
-}
-
-@media (max-width: 550px) and (min-width: 20em) and (max-width: 83.125em) {
-  .header__social {
-    margin-bottom: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem );
-  }
-
-  .header__basket {
     margin-bottom: clamp( 2.5rem , 2.5rem  +  0vw , 2.5rem );
   }
 }
