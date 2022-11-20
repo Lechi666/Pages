@@ -510,6 +510,10 @@ textarea.input {
 
 .header__icon {
   background-color: #fff;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45px;
+          flex: 0 0 45px;
+  height: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1930,14 +1934,6 @@ textarea.input {
     gap: 2.5rem;
   }
 
-  .header__icon {
-    width: 2.8125rem;
-  }
-
-  .header__icon {
-    height: 2.8125rem;
-  }
-
   .menu__list {
     gap: 2.5rem;
   }
@@ -2212,14 +2208,6 @@ textarea.input {
 @media (max-width: 20em) {
   .header__container {
     padding-bottom: 1.25rem;
-  }
-
-  .header__icon {
-    width: 2.8125rem;
-  }
-
-  .header__icon {
-    height: 2.8125rem;
   }
 
   .menu__list {
@@ -2644,14 +2632,6 @@ textarea.input {
 @media (min-width: 20em) and (max-width: 83.125em) {
   .header__container {
     padding-bottom: clamp( 1.25rem , 1.25rem  +  0vw , 1.25rem );
-  }
-
-  .header__icon {
-    width: clamp( 2.8125rem , 2.8125rem  +  0vw , 2.8125rem );
-  }
-
-  .header__icon {
-    height: clamp( 2.8125rem , 2.8125rem  +  0vw , 2.8125rem );
   }
 
   .menu__list {
