@@ -2181,7 +2181,8 @@ textarea.input {
 
 @media (max-width: 550px) {
   .header__social {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.75rem;
+    margin-top: 3.75rem;
   }
 
   .header__basket {
